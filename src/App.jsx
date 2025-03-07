@@ -11,7 +11,7 @@ import {
   Divider,
 } from "semantic-ui-react";
 
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("https://socket-nodejs-express-cors.onrender.com");
 
 function App() {
   const [userName, setUserName] = useState("");
